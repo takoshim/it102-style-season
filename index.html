@@ -61,25 +61,27 @@
 			<li>Winter: <b>#005393</b></li>
 		</ul>
 	</div>
-	<p><strong>Replace some text here</strong> and add your explanation of how this page works and what it does</p>	
 	<p>
-	Aesthetic gentrify YOLO McSweeney's typewriter single-origin coffee. Slow-carb hella listicle lomo, Helvetica 
+      <strong>Replace some text here</strong> and add your explanation of how this page works and what it does
+   </p>	
+	<p>
+	   Aesthetic gentrify YOLO McSweeney's typewriter single-origin coffee. Slow-carb hella listicle lomo, Helvetica 
 		single-origin coffee butcher stumptown. Chambray try-hard church-key mumblecore, tote bag PBR cardigan. 
 		Retro Austin Brooklyn, blog Intelligentsia gentrify jean shorts sartorial bicycle rights gastropub. 
 		Aesthetic wayfarers Pitchfork, tattooed Carles quinoa meh leggings distillery pork belly banjo. 
 		Umami cred lumbersexual skateboard, pork belly Tumblr vegan letterpress. 
 		Fixie bicycle rights butcher chillwave, gluten-free health goth Echo Park locavore whatever.
-	<img src="images/300x400.png" alt="Season Wear Goes Here" id="wear">
+	   <img src="images/300x400.png" alt="Season Wear Goes Here" id="wear">
 	</p>
 	<p>
-	Gluten-free selfies normcore chillwave. Listicle 90's chambray, seitan cold-pressed try-hard Etsy authentic 
+	   Gluten-free selfies normcore chillwave. Listicle 90's chambray, seitan cold-pressed try-hard Etsy authentic 
 		flexitarian vinyl. Meditation bespoke freegan, single-origin coffee cred seitan 90's gentrify brunch 
 		Williamsburg squid cold-pressed. Brooklyn readymade Tumblr wayfarers ethical. Biodiesel VHS Godard High Life, 
 		tousled Banksy craft beer. Mlkshk direct trade locavore, mumblecore keytar artisan hashtag fap. 
 		Cred cronut Brooklyn, locavore art party small batch PBR semiotics ennui kitsch taxidermy mlkshk stumptown.
 	</p>
 	<p>
-	Polaroid iPhone plaid, Pitchfork Shoreditch paleo. Hashtag keytar chia scenester Pinterest, semiotics 
+	   Polaroid iPhone plaid, Pitchfork Shoreditch paleo. Hashtag keytar chia scenester Pinterest, semiotics 
 		tousled food truck. YOLO scenester deep v, taxidermy paleo quinoa McSweeney's Carles VHS mustache 
 		Williamsburg gluten-free readymade cold-pressed. Truffaut Thundercats Schlitz, listicle organic Brooklyn 
 		paleo squid asymmetrical readymade migas gluten-free Austin. Etsy Wes Anderson 8-bit retro, polaroid synth 
@@ -88,15 +90,18 @@
 		put a bird on it master cleanse.
 	</p>
 	<p>
-	Text provided by <a href="http://hipsum.co/" target="_blank">Hipster Ipsum</a>
+	   Text provided by <a href="http://hipsum.co/" target="_blank">Hipster Ipsum</a>
 	</p>
+
 	<footer>
-	<p><small>&copy; 2026 by 
-		NAME HERE, All Rights Reserved ~ 
+	<p>
+      <small>&copy; 2026 by 
+		Takeo Shimazu, All Rights Reserved ~ 
 		<a id="html-checker" href="#">Check HTML</a> ~ 
 		<a id="css-checker" href="#">Check CSS</a></small>
 	</p>
 	</footer>
+
 	</main>
 	<script>
 		function changeSeason(el) {
@@ -105,12 +110,30 @@
 		    var season = el.getAttribute("href");
 		
 		    // 3. Test the scoop!
-		    alert("The season is: " + season);
+		    // alert("The season is: " + season);
+
+          //select the baackground of the page
+          const html = document.querySelector("html");
+
+          switch (season) {
+             case "spring":
+                html.style.backgroundColor = "#2B7129";
+             case "summer":
+             case "fall":
+             case "winter":
+			<li>Spring: <b>#2B7129</b></li>
+			<li>Summer: <b>#EBA52B</b></li>
+			<li>Fall: <b>#A81124</b></li>
+			<li>Winter: <b>#005393</b></li>
+                
+             
+          }
 		    
 		    // 4. Now you can use that 'season' variable to change pics/colors
 		    console.log("The season is: " + season);
 		}
 	</script>
+
 	<script src="js/main.js"></script>
 	</body>
 </html>
