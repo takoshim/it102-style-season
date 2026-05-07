@@ -1,0 +1,11 @@
+total 1.1M
+-rw-r--r--. 1 tako tako 1.3K May  1 00:39 300x400.png
+-rw-r--r--. 1 tako tako  26K May  1 00:39 fall.gif
+-rw-r--r--. 1 tako tako  25K May  1 00:39 fall-wear.jpg
+-rw-r--r--. 1 tako tako  35K May  1 00:39 four-seasons.gif
+-rw-r--r--. 1 tako tako  27K May  1 00:39 spring.gif
+-rw-r--r--. 1 tako tako 834K May  1 00:39 spring-wear.jpg
+-rw-r--r--. 1 tako tako  24K May  1 00:39 summer.gif
+-rw-r--r--. 1 tako tako  22K May  1 00:39 summer-wear.jpg
+-rw-r--r--. 1 tako tako  28K May  1 00:39 winter.gif
+-rw-r--r--. 1 tako tako  21K May  1 00:39 winter-wear.jpg
