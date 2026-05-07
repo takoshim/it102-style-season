@@ -108,6 +108,7 @@
 		    // 1. 'element' is the <a> tag that was just clicked
 		    // 2. Scoop the href attribute (e.g., "winter")
 		    var season = el.getAttribute("href");
+         season = season.toLowerCase();
 		
 		    // 3. Test the scoop!
 		    // alert("The season is: " + season);
@@ -118,15 +119,13 @@
           switch (season) {
              case "spring":
                 html.style.backgroundColor = "#2B7129";
-             case "summer":
-             case "fall":
-             case "winter":
-			<li>Spring: <b>#2B7129</b></li>
-			<li>Summer: <b>#EBA52B</b></li>
-			<li>Fall: <b>#A81124</b></li>
-			<li>Winter: <b>#005393</b></li>
-                
-             
+             // case "summer":
+             // case "fall":
+             // case "winter":
+			    // <li>Spring: <b>#2B7129</b></li>
+			    // <li>Summer: <b>#EBA52B</b></li>
+			    // <li>Fall: <b>#A81124</b></li>
+			    // <li>Winter: <b>#005393</b></li>
           }
 		    
 		    // 4. Now you can use that 'season' variable to change pics/colors
